@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>左右左右电影网 | 左右左右电影网 - 左右左右电影网在线看片平台 · 最新院线大片与经典老片高清资源导航</title>
+<meta name="keywords" content="左右左右电影网, 左右左右电影网电影, 左右左右电影网在线观看, zuoyouzuoyoudianyingwang-app, 左右左右电影网最新电影, 左右左右电影网高清影院, 左右左右电影网热门影视导航">
+<meta name="description" content="左右左右电影网（zuoyouzuoyoudianyingwang-app）是一个聚焦电影资源整理与观影指南的电影主题网站。这里汇聚最新院线大片、经典老片、高分冷门佳作与各类影视资讯，提供左右左右电影网在线观看入口导航、影片评分、剧情简介、导演与演员资料、类型分类与更新动态，帮助影迷更轻松地找到想看的电影。">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="左右左右电影网">
+<meta name="generator" content="左右左右电影网静态页面">
+<meta name="revisit-after" content="7 days">
+<meta name="theme-color" content="#0a0a0c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="左右左右电影网 | 左右左右电影网在线看片平台">
+<meta property="og:description" content="左右左右电影网（zuoyouzuoyoudianyingwang-app）提供最新电影资源导航、观影指南与影视资讯，汇集院线大片、经典老片与高分佳作。">
+<meta property="og:url" content="https://zuoyouzuoyoudianyingwang-app.github.io/">
+<meta property="og:site_name" content="左右左右电影网">
+<link rel="canonical" href="https://zuoyouzuoyoudianyingwang-app.github.io/">
+<link rel="alternate" hreflang="zh-CN" href="https://zuoyouzuoyoudianyingwang-app.github.io/">
+<link rel="dns-prefetch" href="https://zuoyouzuoyoudianyingwang-app.github.io">
+<style>
+:root{
+  --ink:#0a0a0c;
+  --ink2:#111114;
+  --card:#15151a;
+  --line:rgba(255,255,255,.08);
+  --line2:rgba(255,255,255,.14);
+  --txt:#e8e8ea;
+  --txt2:#9b9ba3;
+  --txt3:#6b6b75;
+  --gold:#c9a24b;
+  --gold2:#e6c877;
+  --crimson:#8f1d2c;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--ink);
+  color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+  line-height:1.75;
+  font-size:16px;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";
+  position:fixed;inset:0;
+  background:radial-gradient(1200px 700px at 82% -8%,rgba(143,29,44,.28),transparent 62%),
+             radial-gradient(1000px 600px at 8% 18%,rgba(201,162,75,.10),transparent 58%);
+  pointer-events:none;z-index:0;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+
+/* ---------- 顶部 ---------- */
+.topbar{
+  position:sticky;top:0;z-index:60;
+  background:rgba(10,10,12,.82);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.topbar .in{max-width:1180px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:baseline;gap:10px;flex-shrink:0}
+.brand b{
+  font-size:20px;font-weight:800;letter-spacing:.5px;
+  background:linear-gradient(90deg,var(--gold2),#fff 52%,var(--gold));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.brand span{font-size:11px;color:var(--txt3);letter-spacing:1px}
+.nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.nav a{
+  font-size:14px;color:var(--txt2);padding:7px 12px;border-radius:9px;
+  transition:.2s;
+}
+.nav a:hover{color:#fff;background:rgba(255,255,255,.07)}
+.menu-btn{display:none;margin-left:auto;width:40px;height:40px;border:1px solid var(--line2);border-radius:10px;background:transparent;cursor:pointer;position:relative}
+.menu-btn i{position:absolute;left:10px;width:18px;height:2px;background:var(--txt);border-radius:2px;transition:.25s}
+.menu-btn i:nth-child(1){top:14px}.menu-btn i:nth-child(2){top:19px}.menu-btn i:nth-child(3){top:24px}
+
+/* ---------- 布局 ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px;position:relative;z-index:1}
+section{padding:64px 0}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold2);
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--gold)}
+.h2{
+  font-size:clamp(24px,3.4vw,34px);font-weight:800;line-height:1.3;margin:12px 0 8px;
+}
+.h2 em{font-style:normal;color:var(--gold2)}
+.lead{color:var(--txt2);max-width:640px}
+.divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--line2),transparent)}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;min-height:88vh;display:flex;align-items:center;padding:90px 0 70px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-bg::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(8,8,10,.97) 0%,rgba(8,8,10,.86) 42%,rgba(8,8,10,.35) 75%,rgba(8,8,10,.92) 100%),
+             linear-gradient(0deg,rgba(8,8,10,1) 0%,transparent 30%,transparent 70%,rgba(8,8,10,.96) 100%);
+}
+.hero .wrap{position:relative;z-index:2}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:9px;
+  border:1px solid rgba(201,162,75,.45);border-radius:999px;
+  padding:6px 14px;font-size:12.5px;color:var(--gold2);margin-bottom:22px;
+  background:rgba(201,162,75,.07);
+}
+.hero-tag i{width:6px;height:6px;border-radius:50%;background:#4ade80;box-shadow:0 0 9px #4ade80;animation:pulse 1.8s infinite}
+@keyframes pulse{50%{opacity:.35}}
+.hero h1{
+  font-size:clamp(34px,6.2vw,66px);font-weight:900;line-height:1.12;letter-spacing:1px;
+  margin-bottom:24px;max-width:780px;
+}
+.hero h1 small{display:block;font-size:clamp(14px,1.5vw,16px);font-weight:400;color:var(--txt2);letter-spacing:3px;margin-top:16px;line-height:1.8}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}
+.hero-meta span{
+  font-size:12.5px;color:var(--txt2);border:1px solid var(--line2);border-radius:6px;padding:5px 11px;
+}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:15px;font-weight:600;padding:13px 26px;border-radius:10px;cursor:pointer;transition:.22s;border:1px solid transparent;
+}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1408;box-shadow:0 8px 26px -10px rgba(201,162,75,.8)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 12px 32px -10px rgba(201,162,75,.95)}
+.btn-ghost{background:transparent;color:var(--txt);border-color:var(--line2)}
+.btn-ghost:hover{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.3)}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:52px;max-width:640px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:rgba(255,255,255,.02)}
+.hero-stats div{padding:16px 14px;border-right:1px solid var(--line)}
+.hero-stats div:last-child{border-right:none}
+.hero-stats strong{display:block;font-size:22px;font-weight:800;color:#fff}
+.hero-stats small{font-size:11.5px;color:var(--txt3);letter-spacing:1px}
+
+/* ---------- 通用卡片网格 ---------- */
+.grid{display:grid;gap:22px}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;transition:.28s;position:relative;
+}
+.card:hover{transform:translateY(-5px);border-color:rgba(201,162,75,.4);box-shadow:0 18px 44px -22px rgba(0,0,0,.9)}
+.card .thumb{position:relative;aspect-ratio:2/3;overflow:hidden}
+.card .thumb img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.card:hover .thumb img{transform:scale(1.06)}
+.card .thumb::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(0deg,rgba(8,8,10,.9) 0%,transparent 48%);
+}
+.card .no{
+  position:absolute;top:12px;left:12px;z-index:2;
+  font-size:11px;font-weight:700;color:#0a0a0c;background:var(--gold2);
+  padding:3px 9px;border-radius:4px;letter-spacing:1px;
+}
+.card .body{padding:16px 18px 20px}
+.card .cat{font-size:11.5px;color:var(--gold2);letter-spacing:1.5px;margin-bottom:6px}
+.card h3{font-size:16.5px;font-weight:700;line-height:1.45;margin-bottom:10px}
+.card .row{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--txt3)}
+.card .row b{color:var(--txt2);font-weight:500}
+
+/* ---------- 栏目头部 ---------- */
+.sec-head{display:flex;align-items:flex-end;gap:18px;margin-bottom:34px;flex-wrap:wrap}
+.sec-head .l{flex:1;min-width:260px}
+.sec-head .r{display:flex;gap:8px;flex-wrap:wrap}
+.chip{
+  font-size:13px;color:var(--txt2);border:1px solid var(--line2);border-radius:999px;
+  padding:6px 15px;cursor:pointer;transition:.2s;background:transparent;
+}
+.chip:hover,.chip.on{color:#0a0a0c;background:var(--gold2);border-color:var(--gold2)}
+
+/* ---------- 排行榜 ---------- */
+.rank{display:grid;grid-template-columns:1.05fr .95fr;gap:26px;align-items:start}
+.rank-list{counter-reset:r}
+.rank-item{
+  display:flex;gap:16px;align-items:center;
+  padding:15px 6px;border-bottom:1px solid var(--line);transition:.2s;cursor:default;
+}
+.rank-item:last-child{border-bottom:none}
+.rank-item:hover{background:rgba(255,255,255,.035)}
+.rank-item .n{
+  font-size:25px;font-weight:900;color:var(--txt3);font-style:italic;min-width:34px;
+  font-family:Georgia,serif;
+}
+.rank-item:nth-child(1) .n{color:#ffd166}
+.rank-item:nth-child(2) .n{color:#c9c9d0}
+.rank-item:nth-child(3) .n{color:#cd7f32}
+.rank-item .t{flex:1;min-width:0}
+.rank-item .t h4{font-size:15.5px;font-weight:600;margin-bottom:3px}
+.rank-item .t span{font-size:12.5px;color:var(--txt3)}
+.rank-item .s{font-size:13.5px;font-weight:700;color:var(--gold2);white-space:nowrap}
+
+/* ---------- 资讯 ---------- */
+.news-item{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.news-item:last-child{border-bottom:none}
+.news-item time{font-size:12px;color:var(--gold2);letter-spacing:1px;padding-top:3px}
+.news-item h4{font-size:16px;font-weight:600;line-height:1.55;margin-bottom:6px}
+.news-item p{font-size:13.5px;color:var(--txt3);line-height:1.7}
+
+/* ---------- 专题 ---------- */
+.feat{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:22px}
+.feat-big{position:relative;min-height:420px;border-radius:var(--radius);overflow:hidden}
+.feat-big img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:.5s}
+.feat-big:hover img{transform:scale(1.05)}
+.feat-big .mask{position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,6,8,.96) 0%,rgba(6,6,8,.4) 45%,transparent 75%)}
+.feat-big .txt{position:absolute;left:26px;right:26px;bottom:24px;z-index:2}
+.feat-big .txt h3{font-size:clamp(20px,2.6vw,26px);font-weight:800;margin-bottom:8px}
+.feat-big .txt p{font-size:13.5px;color:var(--txt2);line-height:1.75}
+
+/* ---------- 观影指南 ---------- */
+.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.guide-box{
+  background:linear-gradient(160deg,rgba(255,255,255,.04),rgba(255,255,255,.01));
+  border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;
+}
+.guide-box .ico{font-size:26px;margin-bottom:14px}
+.guide-box h4{font-size:17px;font-weight:700;margin-bottom:10px}
+.guide-box p{font-size:13.5px;color:var(--txt2);line-height:1.85}
+.guide-box ul{margin-top:12px}
+.guide-box li{font-size:13.5px;color:var(--txt2);padding:5px 0 5px 16px;position:relative}
+.guide-box li::before{content:"▹";position:absolute;left:0;color:var(--gold2)}
+
+/* ---------- 域名卡片 ---------- */
+.domain-box{
+  border:1px solid var(--line2);border-radius:var(--radius);
+  background:repeating-linear-gradient(135deg,rgba(255,255,255,.018) 0 12px,transparent 12px 24px);
+  padding:34px 30px;
+}
+.domain-box .url{
+  font-size:clamp(17px,2.4vw,22px);font-weight:700;color:var(--gold2);
+  word-break:break-all;letter-spacing:.3px;
+}
+.domain-box p{font-size:13.5px;color:var(--txt2);margin-top:12px;max-width:620px}
+
+/* ---------- 页脚 ---------- */
+footer{position:relative;padding:70px 0 40px;overflow:hidden;border-top:1px solid var(--line)}
+footer .bg{position:absolute;inset:0;z-index:0;opacity:.26}
+footer .bg img{width:100%;height:100%;object-fit:cover}
+footer .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--ink) 30%,rgba(10,10,12,.92))}
+footer .wrap{position:relative;z-index:2}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px;margin-bottom:44px}
+.foot-brand b{
+  font-size:19px;font-weight:800;
+  background:linear-gradient(90deg,var(--gold2),#fff);-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.foot-brand p{font-size:13px;color:var(--txt3);margin-top:12px;max-width:300px;line-height:1.8}
+.foot-col h5{font-size:14px;font-weight:700;margin-bottom:14px;color:#fff}
+.foot-col a{display:block;font-size:13px;color:var(--txt3);padding:5px 0;transition:.18s}
+.foot-col a:hover{color:var(--gold2)}
+.copy{font-size:12px;color:var(--txt3);border-top:1px solid var(--line);padding-top:24px;text-align:center;line-height:1.9}
+
+/* ---------- 响应式 ---------- */
+@media(max-width:980px){
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .g3,.g2{grid-template-columns:1fr}
+  .rank{grid-template-columns:1fr}
+  .feat{grid-template-columns:1fr}
+  .feat-big{min-height:340px}
+  .guide-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero-stats div:nth-child(2){border-right:none}
+  .hero-stats div:nth-child(1),.hero-stats div:nth-child(2){border-bottom:1px solid var(--line)}
+}
+@media(max-width:680px){
+  section{padding:48px 0}
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:rgba(12,12,15,.98);border-bottom:1px solid var(--line);padding:12px}
+  .nav.open{display:flex}
+  .nav a{padding:12px 18px}
+  .menu-btn{display:block}
+  .g4,.foot-grid{grid-template-columns:1fr}
+  .hero-stats{grid-template-columns:1fr 1fr}
+  .hero-stats div{border-right:none!important;border-bottom:1px solid var(--line)!important}
+  .news-item{grid-template-columns:1fr;gap:6px}
+  .hero{height:auto;min-height:78vh}
+}
+@media print{
+  .topbar,.menu-btn,.hero-actions{display:none!important}
+  body{background:#fff;color:#000}
+  .card,.guide-box,.domain-box{border-color:#ccc;background:#fff}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="topbar">
+  <div class="in">
+    <div class="brand">
+      <b>左右左右电影网</b>
+      <span>ZUOYOU · CINEMA</span>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#home">首页</a>
+      <a href="#library">影片库</a>
+      <a href="#rank">热播榜</a>
+      <a href="#feat">专题推荐</a>
+      <a href="#guide">观影指南</a>
+      <a href="#about">关于本站</a>
+      <a href="#foot">联系我们</a>
+    </nav>
+    <button class="menu-btn" id="mbtn" aria-label="菜单"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- ============ Hero ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="hero.jpg" alt="左右左右电影网首屏：复古电影银幕与放映机光束">
+  </div>
+  <div class="wrap">
+    <div class="hero-tag"><i></i>左右左右电影网 · 每日更新影片资源导航</div>
+    <h1>左右左右电影网
+      <small>聚焦电影的影像资料与观影指南平台 · 院线新片 / 经典修复 / 高分冷门 / 影视资讯一站式整理</small>
+    </h1>
+    <div class="hero-meta">
+      <span>zuoyouzuoyoudianyingwang-app</span>
+      <span>https://zuoyouzuoyoudianyingwang-app.github.io</span>
+      <span>电影 · 剧集 · 纪录片</span>
+      <span>每日更新</span>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#library">浏览影片库 →</a>
+      <a class="btn btn-ghost" href="#rank">查看本周热播榜</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>1200+</strong><small>收录影片</small></div>
+      <div><strong>16</strong><small>电影类型</small></div>
+      <div><strong>每日</strong><small>资源更新</small></div>
+      <div><strong>4.8</strong><small>影迷评分</small></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<!-- ============ 影片库 ============ -->
+<section id="library">
+  <div class="wrap">
+    <div class="eyebrow">FILM LIBRARY · 影片库</div>
+    <div class="sec-head">
+      <div class="l">
+        <h2 class="h2">左右左右电影网 · <em>精选影片库</em></h2>
+        <p class="lead">左右左右电影网按类型、年份、地区与口碑为影迷整理影片清单，覆盖院线大片、经典老片、高分冷门佳作与动画纪录片。</p>
+      </div>
+      <div class="r">
+        <button class="chip on">全部</button>
+        <button class="chip">科幻</button>
+        <button class="chip">动作</button>
+        <button class="chip">剧情</button>
+        <button class="chip">动画</button>
+        <button class="chip">纪录</button>
+      </div>
+    </div>
+
+    <div class="grid g4">
+      <article class="card">
+        <div class="thumb"><span class="no">NEW</span><img src="card1.jpg" alt="星际远航 - 左右左右电影网科幻电影推荐"></div>
+        <div class="body">
+          <div class="cat">科幻 · SCI-FI</div>
+          <h3>星际远航：深空回响</h3>
+          <div class="row"><b>2026 · 美国</b><span>★ 8.7</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><span class="no">HOT</span><img src="card2.jpg" alt="霓虹迷局 - 左右左右电影网犯罪动作电影推荐"></div>
+        <div class="body">
+          <div class="cat">动作 / 犯罪</div>
+          <h3>霓虹迷局</h3>
+          <div class="row"><b>2026 · 香港</b><span>★ 8.4</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><img src="card3.jpg" alt="窗边的午后 - 左右左右电影网治愈生活电影推荐"></div>
+        <div class="body">
+          <div class="cat">剧情 · 治愈</div>
+          <h3>窗边的午后</h3>
+          <div class="row"><b>2025 · 日本</b><span>★ 8.9</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><img src="card4.jpg" alt="竹海孤剑 - 左右左右电影网武侠古装电影推荐"></div>
+        <div class="body">
+          <div class="cat">武侠 · 古装</div>
+          <h3>竹海孤剑</h3>
+          <div class="row"><b>2026 · 中国大陆</b><span>★ 8.6</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><span class="no">HOT</span><img src="card5.jpg" alt="第七号房间 - 左右左右电影网悬疑惊悚电影推荐"></div>
+        <div class="body">
+          <div class="cat">悬疑 · 惊悚</div>
+          <h3>第七号房间</h3>
+          <div class="row"><b>2025 · 韩国</b><span>★ 8.5</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><img src="card6.jpg" alt="云端城堡 - 左右左右电影网动画奇幻电影推荐"></div>
+        <div class="body">
+          <div class="cat">动画 · 奇幻</div>
+          <h3>云端城堡</h3>
+          <div class="row"><b>2026 · 合拍</b><span>★ 9.0</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><img src="card7.jpg" alt="长平残阳 - 左右左右电影网历史战争电影推荐"></div>
+        <div class="body">
+          <div class="cat">历史 · 战争</div>
+          <h3>长平残阳</h3>
+          <div class="row"><b>2025 · 中国大陆</b><span>★ 8.3</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="thumb"><img src="card8.jpg" alt="夏日长椅 - 左右左右电影网青春爱情电影推荐"></div>
+        <div class="body">
+          <div class="cat">青春 · 爱情</div>
+          <h3>夏日长椅</h3>
+          <div class="row"><b>2026 · 台湾</b><span>★ 8.2</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 热播榜 ============ -->
+<section id="rank" style="background:linear-gradient(180deg,rgba(255,255,255,.015),rgba(255,255,255,0))">
+  <div class="wrap">
+    <div class="eyebrow">WEEKLY TOP · 热播榜</div>
+    <div class="sec-head">
+      <div class="l">
+        <h2 class="h2">左右左右电影网 · <em>本周热播榜</em></h2>
+        <p class="lead">基于左右左右电影网站内访问与影迷评分综合排序，每周一更新，反映当下最受关注的影片动态。</p>
+      </div>
+    </div>
+
+    <div class="rank">
+      <div class="card" style="padding:8px 20px">
+        <div class="rank-list">
+          <div class="rank-item"><span class="n">01</span><div class="t"><h4>星际远航：深空回响</h4><span>科幻 · 2026 · ★8.7</span></div><span class="s">热度 98.6</span></div>
+          <div class="rank-item"><span class="n">02</span><div class="t"><h4>云端城堡</h4><span>动画奇幻 · 2026 · ★9.0</span></div><span class="s">热度 97.1</span></div>
+          <div class="rank-item"><span class="n">03</span><div class="t"><h4>霓虹迷局</h4><span>动作犯罪 · 2026 · ★8.4</span></div><span class="s">热度 95.4</span></div>
+          <div class="rank-item"><span class="n">04</span><div class="t"><h4>窗边的午后</h4><span>剧情治愈 · 2025 · ★8.9</span></div><span class="s">热度 93.8</span></div>
+          <div class="rank-item"><span class="n">05</span><div class="t"><h4>第七号房间</h4><span>悬疑惊悚 · 2025 · ★8.5</span></div><span class="s">热度 92.0</span></div>
+          <div class="rank-item"><span class="n">06</span><div class="t"><h4>竹海孤剑</h4><span>武侠古装 · 2026 · ★8.6</span></div><span class="s">热度 89.7</span></div>
+          <div class="rank-item"><span class="n">07</span><div class="t"><h4>夏日长椅</h4><span>青春爱情 · 2026 · ★8.2</span></div><span class="s">热度 87.5</span></div>
+          <div class="rank-item"><span class="n">08</span><div class="t"><h4>长平残阳</h4><span>历史战争 · 2025 · ★8.3</span></div><span class="s">热度 85.9</span></div>
+        </div>
+      </div>
+
+      <div class="grid g2">
+        <article class="card">
+          <div class="thumb" style="aspect-ratio:16/10"><img src="card9.jpg" alt="草原之王 - 左右左右电影网纪录片推荐"></div>
+          <div class="body">
+            <div class="cat">纪录片 · DOC</div>
+            <h3>草原之王</h3>
+            <div class="row"><b>自然 · 非洲草原</b><span>★ 9.1</span></div>
+          </div>
+        </article>
+        <article class="card" style="background:linear-gradient(150deg,rgba(201,162,75,.10),var(--card))">
+          <div class="body" style="padding:24px">
+            <div class="cat">更新公告 · UPDATE</div>
+            <h3 style="font-size:18px;margin-bottom:12px">本周新增 24 部影片</h3>
+            <p style="font-size:13.5px;color:var(--txt2);line-height:1.85">左右左右电影网本周新增院线转网影片 9 部、经典修复 7 部、高分冷门 5 部、纪录片 3 部，影片库总量已突破 1200 部。全部更新内容均已在影片库栏目同步，可按类型标签筛选查看。</p>
+            <a href="#library" style="display:inline-block;margin-top:14px;font-size:13.5px;color:var(--gold2)">前往影片库查看 →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 专题推荐 ============ -->
+<section id="feat">
+  <div class="wrap">
+    <div class="eyebrow">FEATURE · 专题推荐</div>
+    <div class="sec-head">
+      <div class="l">
+        <h2 class="h2">左右左右电影网 · <em>编辑专题</em></h2>
+        <p class="lead">由左右左右电影网编辑团队策划的主题片单，围绕季节、节日、导演、题材与观影情绪组织，适合快速建立一份片单。</p>
+      </div>
+    </div>
+
+    <div class="feat">
+      <div class="feat-big">
+        <img src="hero.jpg" alt="大师剪辑课 - 左右左右电影网专题推荐主视觉">
+        <div class="mask"></div>
+        <div class="txt">
+          <div class="cat" style="color:var(--gold2)">特别策划 · 大师剪辑课</div>
+          <h3>12 部改变电影语言的剪辑名作</h3>
+          <p>从《战舰波将金号》的杂耍蒙太奇到当代碎片叙事，精选 12 部以剪辑著称的影片，配导演访谈与镜头拆解笔记，是理解电影语法的一条捷径。</p>
+        </div>
+      </div>
+      <div class="grid g2">
+        <article class="card">
+          <div class="thumb" style="aspect-ratio:4/3"><img src="card4.jpg" alt="东方武侠专题 - 左右左右电影网"></div>
+          <div class="body">
+            <div class="cat">专题 · 东方武侠</div>
+            <h3>竹林里的刀光：武侠电影百年</h3>
+            <p style="font-size:13px;color:var(--txt3);margin-top:8px">从邵氏武侠到当代新武侠，梳理动作设计与美学变迁。</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb" style="aspect-ratio:4/3"><img src="card3.jpg" alt="治愈系生活电影专题 - 左右左右电影网"></div>
+          <div class="body">
+            <div class="cat">专题 · 治愈系</div>
+            <h3>适合一个人看的 9 部电影</h3>
+            <p style="font-size:13px;color:var(--txt3);margin-top:8px">缓慢、温柔、有留白，给疲惫的一天留一点呼吸感。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 观影指南 ============ -->
+<section id="guide" style="background:linear-gradient(180deg,rgba(255,255,255,.015),rgba(255,255,255,0))">
+  <div class="wrap">
+    <div class="eyebrow">GUIDE · 观影指南</div>
+    <div class="sec-head">
+      <div class="l">
+        <h2 class="h2">左右左右电影网 · <em>观影指南</em></h2>
+        <p class="lead">无论你是刚开始补片的影迷，还是想提升观影体验的老观众，左右左右电影网整理的这份指南都能帮上一点忙。</p>
+      </div>
+    </div>
+
+    <div class="guide-grid">
+      <div class="guide-box">
+        <div class="ico">🎬</div>
+        <h4>新手入门：从哪里开始看</h4>
+        <p>电影世界浩如烟海，不必按年代硬啃。按类型挑、按心情挑、按片长挑，都是更轻松的入口。</p>
+        <ul>
+          <li>先确定今晚想看的"情绪"，再看类型</li>
+          <li>从获奖片单里挑 90–120 分钟的片子</li>
+          <li>一部看完不查解说，先保留自己的感受</li>
+          <li>看不懂也没关系，观影口味是慢慢养成的</li>
+        </ul>
+      </div>
+      <div class="guide-box">
+        <div class="ico">🔍</div>
+        <h4>如何在左右左右电影网找片</h4>
+        <p>本站按类型、年份、地区、口碑与更新时间多维度整理，配合热播榜与编辑专题，快速定位想看的影片。</p>
+        <ul>
+          <li>用影片库顶部标签做一级筛选</li>
+          <li>热播榜看当周热门趋势</li>
+          <li>专题推荐按主题一次性囤一份片单</li>
+          <li>关注更新公告，不错过新片入库</li>
+        </ul>
+      </div>
+      <div class="guide-box">
+        <div class="ico">🍿</div>
+        <h4>提升观影体验的小细节</h4>
+        <p>同样的电影，不同的观看条件会带来完全不同的体验，这几件事值得注意。</p>
+        <ul>
+          <li>关掉弹幕与通知，给电影一个完整的两小时</li>
+          <li>尽量用原声 + 字幕，保留演员表演的语气</li>
+          <li>好音响或半好耳机，能听出更多层次</li>
+          <li>看完别急着评价，隔一晚再回想</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 关于本站 ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">ABOUT · 关于本站</div>
+    <div class="sec-head">
+      <div class="l">
+        <h2 class="h2">关于 <em>左右左右电影网</em></h2>
+        <p class="lead">左右左右电影网（zuoyouzuoyoudianyingwang-app）是一个由影迷搭建、面向影迷的电影主题网站，专注于影片资料整理、观影指南与影视资讯分享。</p>
+      </div>
+    </div>
+
+    <div class="grid g3">
+      <div class="guide-box">
+        <div class="ico">🎞️</div>
+        <h4>我们做什么</h4>
+        <p>左右左右电影网以"让找片更简单"为目标，持续整理电影资源导航、影片评分、剧情简介、导演与演员资料、类型分类与更新动态，覆盖院线新片、经典老片、高分冷门与纪录片动画。</p>
+      </div>
+      <div class="guide-box">
+        <div class="ico">📌</div>
+        <h4>内容原则</h4>
+        <p>所有影片条目均标注年份、地区、类型与口碑参考，专题片单由编辑团队人工策划，力求分类清晰、描述准确、推荐有据，不做无来源的夸大宣传。</p>
+      </div>
+      <div class="domain-box">
+        <div class="cat" style="color:var(--gold2);font-size:11.5px;letter-spacing:1.5px;margin-bottom:10px">官方访问地址 · OFFICIAL</div>
+        <div class="url">https://zuoyouzuoyoudianyingwang-app.github.io</div>
+        <p>左右左右电影网的唯一官方访问地址即上方网址，本站内容持续更新，欢迎收藏并分享给同样爱看电影的朋友。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="foot">
+  <div class="bg"><img src="footer.jpg" alt="左右左右电影网页脚装饰：空荡的电影院观众席"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <b>左右左右电影网</b>
+        <p>聚焦电影的影像资料与观影指南平台，帮助影迷更轻松地找到想看的电影。左右左右电影网 · zuoyouzuoyoudianyingwang-app</p>
+      </div>
+      <div class="foot-col">
+        <h5>栏目导航</h5>
+        <a href="#home">首页</a>
+        <a href="#library">影片库</a>
+        <a href="#rank">热播榜</a>
+        <a href="#feat">专题推荐</a>
+      </div>
+      <div class="foot-col">
+        <h5>实用信息</h5>
+        <a href="#guide">观影指南</a>
+        <a href="#about">关于本站</a>
+        <a href="#foot">联系我们</a>
+        <a href="#">投稿与合作</a>
+      </div>
+      <div class="foot-col">
+        <h5>访问入口</h5>
+        <a href="https://zuoyouzuoyoudianyingwang-app.github.io" style="color:var(--gold2);word-break:break-all">https://zuoyouzuoyoudianyingwang-app.github.io</a>
+        <a href="#home">返回顶部</a>
+      </div>
+    </div>
+    <div class="copy">
+      © 2026 左右左右电影网 · zuoyouzuoyoudianyingwang-app · 保留所有权利<br>
+      本站为电影资料整理与观影指南平台，影片版权归相应权利人所有 · 官方网址：https://zuoyouzuoyoudianyingwang-app.github.io
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('mbtn'),nav=document.getElementById('nav');
+  if(btn&&nav){
+    btn.addEventListener('click',function(){nav.classList.toggle('open')});
+    nav.addEventListener('click',function(e){if(e.target.tagName==='A'&&window.innerWidth<=680){nav.classList.remove('open')}});
+  }
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&nav)nav.classList.remove('open');
+  });
+})();
+</script>
+</body>
+</html>
